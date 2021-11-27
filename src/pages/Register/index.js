@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Register.css";
 import { Form, Button } from "react-bootstrap";
-// import { Link } from "react-router-dom";
+
 
 export function Register() {
   
@@ -26,7 +26,7 @@ export function Register() {
   return (
     <div className="container vh-100 d-flex">
       <div className="vw-25 m-auto">
-        <h1 className="text-black text-center"> Cadastro </h1>
+        <h1 className="text-white text-center"> Cadastro </h1>
         <Form>
           <Form.Group className="mb-3">
           <Form.Control
