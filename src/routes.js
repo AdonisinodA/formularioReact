@@ -6,7 +6,7 @@ const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/Registrar" component={Register} />
+        <Route exact path="/registrar" component={Register} />
       </Switch>
      
     </BrowserRouter>
